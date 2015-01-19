@@ -148,7 +148,7 @@ SENSORS = [
     Sensor("short_term_fuel_trim_2", "S-T Fuel Trim"				, "0108" , fuel_trim_percent,"%"      ),
     Sensor("long_term_fuel_trim_2" , "L-T Fuel Trim"				, "0109" , fuel_trim_percent,"%"      ),
     Sensor("fuel_pressure"         , "FuelRail Pressure"			, "010A" , cpass            ,""       ),
-    Sensor("manifold_pressure"     , "Intk Manifold"				, "010B" , intake_m_pres    ,"psi"    ),
+    Sensor("manifold_pressure"     , "Boost"				        , "010B" , intake_m_pres    ,"psi"    ),
     Sensor("rpm"                   , "Engine RPM"					, "010C1", rpm              ,""       ),
     Sensor("speed"                 , "Vehicle Speed"				, "010D1", speed            ,"MPH"    ),
     Sensor("timing_advance"        , "Timing Advance"				, "010E" , timing_advance   ,"degrees"),
